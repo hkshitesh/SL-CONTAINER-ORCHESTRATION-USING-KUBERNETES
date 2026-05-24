@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Pod
+metadata:
+  name: my-nginx-pod-2
+  
+  namespace: devops
+  labels:
+    app: web
+spec:
+  containers:
+  - name: nginx-container
+    image: nginx
